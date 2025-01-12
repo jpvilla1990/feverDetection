@@ -1,0 +1,20 @@
+server:
+  hostIp: "0.0.0.0"
+  port: 10900
+irCamera:
+  camera: "MLX90640-D110"
+  delayCaptureMiliSeconds: 0.001
+camera:
+  camera: "OV3660"
+  delayCaptureMiliSeconds: 0.001
+paths:
+  data: ["data"]
+  irVideos: ["data", "irCamera"]
+  cameraVideos: ["data", "cameraVideos"]
+  yoloData: ["data", "yolo"]
+files:
+  datasets: ["data", "videos.yaml"]
+yolo:
+  model: "https://github.com/akanametov/yolo-face/releases/download/v0.0.0/yolov11n-face.pt"
+  desiredConfidence: 0.2
+  classDetected: 0
