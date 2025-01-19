@@ -3,3 +3,4 @@ sudo apt install python3-gi python3-gi-cairo gir1.2-gst-rtsp-server-1.0
 sudo apt install gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly
 sudo apt-get install gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-libav
 sudo apt install python3.11-dev build-essential libffi-dev
+sudo apt install libcamera-apps python3-picamera2
